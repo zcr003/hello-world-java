@@ -7,10 +7,12 @@ public class HelloWorld {
   }
 
   private static String target(String[] args) {
-    return (args.length > 0) ? args[0] : "world";
+    return (args.length > 0) ? args[0] : "World";
 
   }
+
  private static void greet(String greeting) {
     System.out.println(greeting);
  }
+
 }
